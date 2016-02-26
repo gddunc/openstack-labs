@@ -171,7 +171,7 @@ Atest [5] This is a test.
 - **Scheduler Manager** [6] A Compute component that determines where VM instances should start. Uses modular design to support a variety of scheduler types.
 - **Server** [3] Two meanings might apply. The first, a computer that provides explicit services to the client software running on that system; LAMP, SIP, Minecraft, etc. The second is a VM instance (running within Compute).
 - **Service Catalog** [5] Also sometimes just referred to as the 'catalog', or the 'endpoint registry'. Contains a list of API endpoints that are available to a user (i.e. such as Compute, Image Service, Identity, Object Storage, Block Storage, Networking, etc.) after authentication with the Identity service.
-- **Shared Storage** [11] Block storage that is simultaneously accessible by multiple clients, for example, NFS.
+- **Shared Storage** [11] Block storage that is simultaneously accessible by multiple clients.
 - **Snapshot** [3] A point-in-time copy of an OpenStack storage volume or image. Use storage volume snapshots to back up volumes. Use image snapshots to back up data, or as "gold" images for additional servers.
 - **Source** [1] Just like . A bash shell built-in command that executes the content of the file passed as argument, in the current shell. It has a synonym in '.'
 - **Space** [11] A new word that makes you look cool by expressing any area with finite boundaries as a 'space'.  Therefore, you would not say a dog's lifespan is 12 years, you would say his lifespace is 12 twelve 365 day-spaces where you attempt to inject the word 'space' when a far more efficient expression is available but due to low vocabulary-space, the wordspace will continue to be dominated excessive use of the word 'space'.
